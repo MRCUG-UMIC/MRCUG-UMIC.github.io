@@ -1,10 +1,8 @@
 ---
-title: Acceptable use
+title: Acceptable Use Policy
 ---
 
 # Acceptable use
-
-This page is a **draft template** requiring institutional approval.
 
 - Use HPC resources only for authorised research and training.
 - Keep credentials confidential and follow access requirements.
@@ -13,4 +11,4 @@ This page is a **draft template** requiring institutional approval.
 - Report suspected security incidents promptly.
 - Acknowledge HPC support in outputs where required.
 
-Replace this template with the official institutional policy.
+For the full Acceptable Use Policy, email mrcug-UMIC-Admin@lshtm.ac.uk
