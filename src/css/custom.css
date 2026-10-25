@@ -580,3 +580,10 @@
     margin-top: 24px;
   }
 }
+
+/* Support page security warning */
+.contentPage .alert--warning {
+  margin-top: 30px;
+  margin-bottom: 25px;
+  border-radius: 12px;
+}
