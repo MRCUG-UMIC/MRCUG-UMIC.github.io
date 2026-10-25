@@ -55,7 +55,7 @@
 }
 
 .navbar__logo {
-  height: 65px;
+  height: 80px;
   width: auto;
   display: flex;
   align-items: center;
@@ -486,5 +486,21 @@
 
   .banner .secondaryBtn {
     margin-top: 22px;
+  }
+}
+
+
+/* Homepage welcome message */
+.heroWrap .eyebrow {
+  font-size: 25px;
+  font-weight: 800;
+  letter-spacing: 1.2px;
+  line-height: 1.5;
+}
+
+/* Welcome message on mobile */
+@media (max-width: 600px) {
+  .heroWrap .eyebrow {
+    font-size: 20px;
   }
 }
