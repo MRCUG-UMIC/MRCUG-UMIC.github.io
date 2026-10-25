@@ -1,6 +1,6 @@
 // Update url, organizationName, projectName and contact details before deployment.
 const config = {
- title: 'Uganda Medical Informatics Centre HPC Wiki', tagline: 'Documentation, Resources and Training Opportunities',
+ title: 'UMIC HPC Wiki', tagline: 'Documentation, Resources and Training Opportunities',
  favicon: 'img/favicon.svg', url: 'https://mrcug-umic.github.io', baseUrl: '/',
  organizationName: 'MRCUG-UMIC', projectName: 'MRCUG-UMIC.github.io',
  onBrokenLinks: 'throw', onBrokenMarkdownLinks: 'warn',
@@ -12,7 +12,7 @@ const config = {
  }]],
  themeConfig: {
   image: 'img/social-card.svg',
-  navbar: {title: 'Uganda Medical Informatics Centre HPC Wiki', logo: {alt:'HPC',src:'img/mrc-uvri-and-lshtm-logo.png'}, items: [
+  navbar: {title: 'UMIC HPC Wiki', logo: {alt:'HPC',src:'img/mrc-uvri-and-lshtm-logo.png'}, items: [
    {to:'/',label:'Home',position:'left'}, {to:'/about',label:'About',position:'left'},
    {type:'docSidebar',sidebarId:'mainSidebar',position:'left',label:'Documentation'},
    {to:'/training',label:'Training',position:'left'}, {to:'/research',label:'Research',position:'left'},
