@@ -504,3 +504,79 @@
     font-size: 20px;
   }
 }
+
+/* ==========================================
+   HOMEPAGE HERO — SPACING REFINEMENTS
+   ========================================== */
+
+/* Make the hero section slightly more compact */
+.heroWrap {
+  padding-top: 80px;
+  padding-bottom: 75px;
+}
+
+/* Align hero content vertically */
+.heroGrid {
+  align-items: center;
+  gap: 4rem;
+}
+
+/* Raise the welcome message */
+.heroWrap .eyebrow {
+  font-size: 25px;
+  font-weight: 800;
+  letter-spacing: 1.2px;
+  line-height: 1.4;
+  margin-bottom: 24px;
+}
+
+/* Adjust main heading spacing */
+.heroTitle {
+  margin-top: 0;
+  margin-bottom: 20px;
+  line-height: 1.15;
+}
+
+/* Description spacing */
+.heroLead {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 1.75;
+}
+
+/* Space above action buttons */
+.ctaRow {
+  margin-top: 30px;
+}
+
+/* ==========================================
+   MOBILE SPACING
+   ========================================== */
+
+@media (max-width: 600px) {
+  .heroWrap {
+    padding-top: 50px;
+    padding-bottom: 55px;
+  }
+
+  .heroGrid {
+    gap: 2.5rem;
+  }
+
+  .heroWrap .eyebrow {
+    font-size: 20px;
+    margin-bottom: 18px;
+  }
+
+  .heroTitle {
+    margin-bottom: 16px;
+  }
+
+  .heroLead {
+    line-height: 1.65;
+  }
+
+  .ctaRow {
+    margin-top: 24px;
+  }
+}
