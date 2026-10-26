@@ -1,33 +1,20 @@
 
 ---
 title: Cluster Architecture
-description: Overview of the UMIC high-performance computing infrastructure, compute resources, storage and workload management.
+sidebar_label: Architecture
 ---
 
-# Cluster Architecture
 
 The UMIC HPC is set up to support computationally intensive biomedical research, bioinformatics, genomics, and artificial intelligence.
 
 The infrastructure combines high-performance CPU computing, GPU-accelerated computing and high-capacity storage to support diverse scientific workloads.
 
-## HPC Architecture Overview
+## UMIC HPC Capacity at a Glance
 
 ![UMIC HPC cluster architecture](/img/umic-hpc-setup.png)
 
 *Figure 1. Overview of the UMIC HPC infrastructure, illustrating researcher access, via the SSH gateway and login node, to the CPU and GPU compute nodes, and storage systems.*
 
-## UMIC HPC Capacity at a Glance
-
-| Infrastructure | Capacity |
-|---|---|
-| CPU compute nodes | **64** |
-| Total CPU cores | **2,048** |
-| Total system RAM | **16 TB** |
-| GPU compute nodes | **4** |
-| Total GPUs | **12 NVIDIA Tesla V100** |
-| GPUs per GPU node | **3** |
-| Total GPU memory | **384 GB** |
-| Storage capacity | **Up to 400 TB** |
 
 ## CPU Computing Infrastructure
 
