@@ -1,9 +1,6 @@
 
 ---
-title: Cluster Architecture
-sidebar_label: Architecture
 ---
-
 
 The UMIC HPC is set up to support computationally intensive biomedical research, bioinformatics, genomics, and artificial intelligence.
 
@@ -18,18 +15,8 @@ The infrastructure combines high-performance CPU computing, GPU-accelerated comp
 
 ## CPU Computing Infrastructure
 
-The UMIC HPC provides **64 CPU compute nodes**, delivering a combined **2,048 CPU cores** and **16 TB of RAM**.
+The UMIC HPC provides **64 CPU compute nodes**, delivering a combined **2,048 CPU cores** and **16 TB of RAM**. This infrastructure supports computationally demanding workloads (e.g. GWAS/genome-wide imputation, short-read WGS/WES analysis, long-read sequencing analysis, and RNAseq analysis) through parallelisation and providing sufficient memory. 
 
-This infrastructure supports computationally demanding workloads, including:
-
-- Large-scale genomic data processing (e.g. whole-genome and whole-exome sequencing analysis)
-- Population genetics
-- RNAseq analysis
-- Immunoinformatics
-- Epidemiological modelling
-
-
-The CPU infrastructure enables researchers to process large datasets and execute computational tasks across multiple compute nodes.
 
 ## GPU-Accelerated Computing
 
@@ -51,7 +38,7 @@ The architecture diagram distinguishes between:
 - **Short-term storage (Lustre):** Storage intended for active computational workloads and research data processing.
 - **Long-term storage (NFS):** Storage intended for longer-term data management.
 
-These storage systems support data-intensive applications, including genomic sequencing, multi-omics research and other biomedical datasets.
+These storage systems support data-intensive applications, including analysis of genomics/multi-omics data and other biomedical datasets.
 
 Please consult the Storage and File Management documentation for guidance on organising datasets, managing files and using available storage resources.
 
@@ -72,6 +59,7 @@ The UMIC HPC supports research and innovation across several scientific domains:
 - Population genetics
 - Infectious diseases
 - Pathogen surveillance
+- Immunoinformatics
 - Microbiome research
 - Structural bioinformatics
 - Non-communicable diseases
