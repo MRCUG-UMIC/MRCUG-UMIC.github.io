@@ -19,3 +19,4 @@ scp local_mediumdata.ext your_username@transfer.umic.systems:~/
 ```
 
 For larger transfers, please contact beatrice.dhaala@mrcuganda.org as dedicated data transfer platforms such as Globus or Aspera may be the best to use. 
+
