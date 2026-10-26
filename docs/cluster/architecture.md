@@ -1,6 +1,5 @@
 ---
 title: Cluster Architecture
-sidebar_label: Cluster Architecture
 ---
 
 The UMIC HPC is set up to support computationally intensive biomedical research, bioinformatics, genomics, and artificial intelligence.
