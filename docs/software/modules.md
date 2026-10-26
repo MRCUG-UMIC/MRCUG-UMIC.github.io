@@ -4,12 +4,11 @@ title: Environment modules
 
 # Environment modules
 
-Many HPC systems use environment modules to expose installed software.
 
 ```bash
 module avail
 module list
-module spider python
+
 module load python
 module unload python
 ```

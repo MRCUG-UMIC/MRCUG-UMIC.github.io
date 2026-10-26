@@ -20,4 +20,5 @@ scancel JOB_ID
 
 ### Can I install software?
 
-Follow your institution’s module, environment and container policy.
+Yes, but first check whther the software is installed using `module avail`. You may install software into conda environment(s) preferably in your project directory (NOT the home directory). For software that can benefit the wider group of UMIC HPC users (e.g. samtools), please contact beatrice.dhaala@mrcuganda.org for system-wide installation, if the software is not installed already.  
+
