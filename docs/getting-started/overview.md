@@ -4,7 +4,7 @@ title: Getting started
 
 # Getting started
 
-Start here if you are new to HPC. Follow these steps in order.
+Start here if you are new to HPC. 
 
 1. [Request an account](./account.md).
 2. [Connect using SSH](./connect.md).

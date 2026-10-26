@@ -4,11 +4,18 @@ title: Data transfer
 
 # Data transfer
 
-Use your institution-approved transfer mechanism. For modest datasets, `scp` or `rsync` may be available.
+For small datasets (<30GB):
 
 ```bash
-scp local.txt your_username@login.example.org:~/
-rsync -avP results/ your_username@login.example.org:~/results/
+scp local_smalldata.ext your_username@ssh.umic.systems:~/
+
 ```
 
-For sensitive data, follow approved encryption, transfer and access-control requirements. Large transfers may require dedicated data transfer nodes.
+For medium datasets (between 30GB and 200GB):
+
+```bash
+scp local_mediumdata.ext your_username@transfer.umic.systems:~/
+
+```
+
+For large transfers, please contact beatrice.dhaala@mrcuganda.org as dedicated data transfer platforms such as Globus or Aspera may be the best to use. 
