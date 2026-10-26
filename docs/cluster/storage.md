@@ -4,13 +4,22 @@ title: Storage and file management
 
 # Storage and file management
 
-Clusters commonly separate home, project and scratch storage. **Your actual filesystem paths, quotas, retention and backup policies must be confirmed locally.**
+Store active large datasets in approved project directories, NOT in your home directory. Scratch folders may be purged and should not be treated as a backup.
 
+For a quick overview of the file sizes in a particular folder, use:
 ```bash
-pwd
-df -h .
-du -sh "$HOME"
 ls -lh
 ```
 
-Store active large datasets in approved project or scratch areas, not on login-node local disks. Scratch may be purged and should not be treated as a backup.
+
+To monitor storage consumption for your home directory, use: 
+```bash
+du -sh "$HOME"
+```
+
+For checking the total, used and available disk space on the filesystem containing your current working directory, run:
+
+```bash
+df -h .
+```
+
